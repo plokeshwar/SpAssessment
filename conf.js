@@ -24,6 +24,9 @@ exports.config = {
 	// browser to launch tests
 	capabilities : {
 		browserName : 'chrome',
+		loggingPrefs: {
+			browser: 'ALL'
+		},
 		acceptInsecureCerts : true,
 		chromeOptions : {
 			args : [ '--disable-extensions' ]
@@ -39,10 +42,10 @@ exports.config = {
 
 	//Define which tests should be excluded from execution.
 	exclude : [
-	          // 'features/search.feature'
+	          // 'features/test.feature'
 			],
 
-	// Set log level and enables colors for log output
+	// Set node node_modules/protractor/bin/webdriver-manager start level and enables colors for log output
 	logLevel : 'verbose',
 	coloredLogs : true,
 

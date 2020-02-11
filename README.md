@@ -29,9 +29,10 @@ After cloning this project into your system folder, use below steps:
 
 2) Update WebDriver-Manager to get latest binaries
 
-	node node_modules/protractor/bin/webdriver-manager update
-	
-	_PS: Currently chrome driver has been hardcoded to download --versions.chrome=80.0.3987.16_
+        PS: Currently chrome driver has been hardcoded to download --versions.chrome=80.0.3987.16
+       
+       npm run webdriver-update
+          	
 	 
 3)  Run tests using protractor installed locally as below:
     
