@@ -43,7 +43,9 @@ Note: Windows users, use node at start of command to update/start webdriver-mana
 	node node_modules/protractor/bin/webdriver-manager start
 
 4) Reports can be seen at Reports folder with failure screenshots.
-
+    1. After execution, normally the report will automatically open on the default browser. 
+    2. If the above does not trigger, HTML reports can be found at _reports/cucumber_report.html_
+    3. Cucumber json version can be found at _reports/cucumber_report.json_ 
 
 ##Scenarios Covered
 	
