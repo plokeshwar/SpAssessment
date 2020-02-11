@@ -63,5 +63,5 @@ Note: Windows users, use node at start of command to update/start webdriver-mana
 	##Reasons For Failure (Probable)
 		1. Reasons related to NPM or npm installation.
 		2. Reasons related to network very slow or limited access.
-		3. (Important) Reasons related to Products mentioned in the Feature file, not available during execution. (Out of Stock)
+		3. (Important) Reasons related to change in the application data, such expected messages, etc.
 		4. Report folder not being able to create (permission denied) 
