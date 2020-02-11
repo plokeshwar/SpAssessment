@@ -34,7 +34,7 @@ exports.config = {
 	//
 	// Define which tests should execute
 	specs : [ 
-	          'features/*.feature'
+	          'features/e2e/*.feature'
 	       ],
 
 	//Define which tests should be excluded from execution.
