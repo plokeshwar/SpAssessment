@@ -1,0 +1,9 @@
+{
+	"test":{
+			"appUrl": "https://webuildsg.github.io/data/"
+		},
+		
+	"dev":{
+			"appUrl": "https://webuildsg.github.io/data/"
+		}
+}
