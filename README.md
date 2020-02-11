@@ -50,9 +50,19 @@ Note: Windows users, use node at start of command to update/start webdriver-mana
 
 ##Scenarios Covered
 	
-	1. ****
-	2. ****
+	Feature: This feature includes scenarios related to active user page
+	    1. Scenario: Validate the navigation to active user groups link
+	    2. Scenario: Validate the navigation to active user groups link
+	    3. Scenario: Validate the meetup links navigation
+	    
+	Feature: This feature includes scenarios related to main page
+	    1. Scenario: Validate the total number of search data
+	    2. Scenario: Validate the filter on search option
+	    3. Scenario: This scenario is to display failure scenario
 	 
+	Feature: This feature includes scenarios related to program repo page
+	    1. Scenario: Validate the navigation to repos per programming link
+	
 
 #  The reason for this structure and probable reasons for failure
 	##Structure
